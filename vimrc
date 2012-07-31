@@ -30,6 +30,10 @@ set smartcase
 let g:AckAllFiles = 0
 let g:AckCmd = 'ack --type-add ruby=.feature --ignore-dir=tmp 2> /dev/null'
 
+" To let command-t get the <leader>t binding
+let g:no_turbux_mappings = 0
+let mapleader = ","
+
 let html_use_css=1
 let html_number_lines=0
 let html_no_pre=1
